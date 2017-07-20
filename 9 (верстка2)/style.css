@@ -1,0 +1,25 @@
+.back {background: #80cdc6;
+position: relative;
+width: 560px;
+height: 447px;	
+overflow: hidden;}
+
+.world, .clouds, .wooden-ship, .water {position: absolute;}
+
+.world {bottom: 20px;
+	z-index: 20;}
+
+.clouds {top: -9px;
+	right: 0px;
+	height: 27%;
+	z-index: 10;}
+
+.wooden-ship {bottom: 38px;
+	left: 18px;
+	width: 123px;
+	z-index: 30;}
+
+.water {bottom: 0px;
+		z-index: 40;
+		left: -4px;
+		width: 102%}
